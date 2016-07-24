@@ -48,8 +48,7 @@ class BankAccount
         if ($balance >= 0) {
             $this->balance = $balance;
         } else {
-            // Max Shaev
-            //throw new BankAccountException;
+            throw new BankAccountException;
         }
     }
 
