@@ -48,7 +48,7 @@ class BankAccount
         if ($balance >= 0) {
             $this->balance = $balance;
         } else {
-            throw new BankAccountException;
+            //throw new BankAccountException;
         }
     }
 
